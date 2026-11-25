@@ -7,7 +7,7 @@ author = "鷲尾優作"
 reviewer = ""
 approver = ""
 organization = ""
-confidentiality = "社外秘"
+confidentiality = "公開"
 
 [[revision]]
 version = "A"

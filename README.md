@@ -1,6 +1,8 @@
 # ai_assisted_submarine
 
-AI が SOLIDWORKS を操作して設計した水中ドローン UWD-01 の設計一式．3次元モデル，事前計算，部品表，正式文書を同じ設計値から生成する．
+水中ドローン UWD-01 の設計データ
+
+AI が SOLIDWORKS を操作して設計した．3次元モデル，事前計算，部品表，正式文書を同じ設計値から生成する．
 
 ![UWD-01 の外観](doc/03_設計/図/UWD-01_iso.png)
 
@@ -51,8 +53,8 @@ src/uwd01/       3次元モデルの生成スクリプト
 Windows と SOLIDWORKS 2024，Python 3.10 以上を使う．3次元モデルの生成には [swkit](https://github.com/waarrk/swkit) を使う．
 
 ```text
-git clone git@github.com:waarrk/ai_assisted_submarine.git
-git clone git@github.com:waarrk/swkit.git
+git clone https://github.com/waarrk/ai_assisted_submarine.git
+git clone https://github.com/waarrk/swkit.git
 cd ai_assisted_submarine
 python -m venv .venv
 .venv\Scripts\pip install -e ..\swkit[rapid,doc] numpy scipy

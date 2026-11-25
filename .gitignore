@@ -1,0 +1,21 @@
+# SOLIDWORKS / Office のロックファイル
+*~$*
+~$*
+
+# Python
+.venv/
+__pycache__/
+
+# 実行ログ（計算結果の JSON は追跡する）
+analysis/out/*.log
+analysis/out/*.txt
+
+# ログイン状態を持つブラウザのプロファイル、画面の記録、アップロード用の書き出し（アカウント名が写る）
+quote/meviy/.profile/
+quote/meviy/upload/
+quote/meviy/explore/
+quote/meviy/result/**/*.txt
+quote/lookup/
+
+# swkit の部品キャッシュ
+.swkit_cache/
